@@ -1,0 +1,311 @@
+ /* CSS Document */
+ 
+
+@media only screen and (max-width: 480px) {
+ #frontPanelContainer #lefttabspanel ul li a
+{
+	font-size:100% !important;
+	padding:2px;
+	text-align:left;
+	display:block !important;
+	color:#000;
+	width:100% !important;
+	outline:none;
+	
+	}
+ 
+}
+
+#adminlogo{
+	position:absolute;
+ 	background:url(images/ParkAdmin_Lite.png) top left no-repeat;
+	height:65px;
+	width:65px;
+	}
+#parkingsystem_container
+{
+	width:730px;
+	margin:40px auto 15px auto;
+	padding:15px;
+	border:35px solid #333;
+	min-height:350px;
+	background: #FaFaFa;
+	
+	}
+.small{
+	font-size:10px;}	
+#parkingsystem_container .admintitles
+{
+	background:#C8D9ED;
+	padding:10px 0px;
+	color:#2187BB;
+	font-weight:normal;
+	}
+		
+#parkingsystem_container td , th
+{
+	border:#CCC 1px solid;
+	text-align:center;
+
+	}
+	
+#parkingsystem_container .del,#frontPanelContainer .del 
+{
+	background:url(images/1379548095_delete.png) no-repeat center left;
+	display:block;
+	width:20px;
+	height:20px;
+	text-indent:500px;
+	float:left;
+	margin:3px 5px;
+	}	
+#parkingsystem_container .edit ,#frontPanelContainer .edit 
+{
+	background:url(images/1379548081_Paper-pencil.png) no-repeat center left;
+	display:block;
+	width:20px;
+	height:20px;
+	text-indent:500px;
+	float:left;
+	margin:3px 5px;
+	}
+.center{
+	text-align:center;
+	}
+.borderb{
+	border-bottom:1px solid #CCC;
+	}
+#frontPanelContainer
+{
+	width:100%;
+	min-height:350px;
+	min-width:400px;
+	float:left;
+	border:#999 1px solid;
+	box-shadow: 0px 0px 5px #888888;
+	background:#eee;
+	max-width: 870px;
+	margin:10px auto;
+	
+	
+	}
+#frontPanelContainer	.panelheading
+{
+	font-size:18px;
+	text-align:center;
+	background:#C8D9ED;
+	padding:5px;
+	margin:5px 0px;
+	}
+#frontPanelContainer li ,#frontPanelContainer p , #frontPanelContainer div ,#frontPanelContainer td ,#frontPanelContainer th ,
+#frontPanelContainer h1 ,#frontPanelContainer h2 ,#frontPanelContainer h3 ,#frontPanelContainer h4 ,#frontPanelContainer h5
+{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	}
+#frontPanelContainer #lefttabspanel
+{
+	width:25%;
+	min-height:350px;
+	float:left;
+	border:none;
+	background:url(images/leftbg.png) right repeat-y;
+	}
+	
+#frontPanelContainer #rightpanel
+{
+	width:74%;
+	min-height:350px;
+	float:right;
+	border-left:1px solid #aaa;
+ 	}
+	
+	
+#frontPanelContainer #rightpanel h2	
+	{
+		border:1px solid #99c4ea
+		
+		
+		}
+#frontPanelContainer #rightpanel .ui-tabs-panel
+{ 
+	padding:0px 10px 10px 10px;
+	text-align:justify;
+	}	
+#frontPanelContainer .success ,#parkingsystem_container .success
+{
+	border:1px solid #060;
+	padding:2px 15px;
+	width:350px;
+	background:#fff;
+	margin:5px auto;
+	text-align:center;
+	color:#060;
+	border-radius:5px;
+	font-weight:bold;
+	}	
+	
+#frontPanelContainer .error,#parkingsystem_container .error
+{
+	border:1px solid red;
+	padding:2px 15px;
+	width:80%;
+	background:#fff;
+	margin:5px auto;
+	text-align:center;
+	color:#red;
+	border-radius:5px;
+	font-weight:bold;
+	}
+ .bold{
+	 font-weight:bold !important;
+	 
+		}
+#frontPanelContainer #lefttabspanel ul
+{
+	width:100%;
+	list-style:none;
+	margin:0px;
+ 	padding:0px;
+	border:none;
+	background:none;
+	}
+	
+#frontPanelContainer #lefttabspanel ul .ui-state-active
+{
+	border:none;
+	background:#eee;
+	}	
+	
+	
+#frontPanelContainer #lefttabspanel ul li
+{
+	width:100%;
+	list-style:none;
+	margin:2px 0px;
+	padding:0px;
+	border-radius:0px;
+	background:none;
+	border:none;
+	}
+#frontPanelContainer #lefttabspanel ul li:hover
+{
+	background:#eee;
+	border:none;
+	}
+#frontPanelContainer #lefttabspanel ul li a
+{
+	font-size:14px;
+	padding:3px 0px 3px 10px;
+	text-align:left;
+	display:block;
+	color:#000;
+	width:100%;
+	outline:none;
+	
+	}
+.grids 
+{
+	margin:10px auto;
+	color:#000;
+	
+	
+	}
+.grids td ,.grids th
+{
+	padding:0px 10px;
+	
+	}
+.ui-widget table td ,.ui-widget table  th
+{
+ 
+	padding:2px 5px;
+	}
+#frontPanelContainer .grids td ,#frontPanelContainer .grids th
+{
+	text-align:center;
+	font-size:12px;
+ 
+	}
+#frontPanelContainer .grids td ,#frontPanelContainer .grids th
+{
+	text-align:center;
+	font-size:12px;
+ 
+	}
+.form .smallinput ,#frontPanelContainer .smallinput
+{
+	width:40px !important;
+	}
+	
+#frontPanelContainer input[type=button]:active,#frontPanelContainer input[type=button]:focus
+{
+	padding:4px 15px;
+	}
+.form input[type=text] ,.form  select ,.form input[type=text]:active ,.form input[type=button]:active ,.form  select:focus 
+{
+	border:1px solid #99c4ea;
+	padding:2px 5px;
+	width:150px;
+	
+	}
+.form .error_field{
+	border:1px solid red !important;
+	} 
+.ui-dialog-buttonpane button:active,
+.ui-dialog-buttonpane input[type=submit]:active,
+.ui-dialog-buttonpane input[type=button]:active,
+.ui-dialog-buttonpane input[type=reset]:active {
+ 	padding:0px 0px;
+}	
+ 
+#processindicator {
+						position: fixed;
+						top: 0px;
+						left: 0px;
+						width: 100%;
+						height: 200%;
+						display: none;
+						background: #666;
+						opacity: 0.8;
+						z-index: 1024;
+   
+                   }
+
+ .registeredexp{
+	 background:url(images/renew.png) top left no-repeat;
+	 }				   
+.registeredpaid{
+	background:url(images/Tick.png) top left no-repeat;
+	}			   
+.registeredunpaid{
+	background:url(images/money.png) top left no-repeat;
+	}
+.permthstry{
+		display:block;
+		height:20px;
+		width:40px;
+
+}
+#searchPanel{
+	margin:15px auto;
+	width:80%;
+	padding:15px;
+	}
+	
+#PermitPanel:focus ,#PaymentHistory:focus ,#vehicles:focus
+{
+	outline:none;
+	}
+.processing{
+	padding:25px 0px 10px 0px;
+	color:#06F;
+	width:220px;
+	height:25px;
+	margin:10px auto;
+	background:url(images/loader.gif) center center no-repeat;
+	}
+.red{
+	color:red !important;
+	}
+	
