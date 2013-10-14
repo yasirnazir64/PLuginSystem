@@ -66,8 +66,7 @@ function register_parking_system_Menu(){
 		case 'ParkAdminSystemType':
 		case 'ParkAdminSystemTransaction':
 		case 'ParkAdminSystemPermitUser':
-		
- 						IncludeCssJs();
+		IncludeCssJs();
 						
 		break;
 	}
